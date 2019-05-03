@@ -31,3 +31,6 @@ class Profile(models.Model):
 
     def __str__(self):
         return self.profile_name
+
+class SampleModel(models.Model):
+    pass
