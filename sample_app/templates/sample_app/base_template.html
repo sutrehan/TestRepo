@@ -1,0 +1,11 @@
+<html>
+    <title>
+    {% if title %}
+        {{ title }}
+    {% else %}
+        Sample App
+    {%endif %}
+    </title>
+
+    {% block content %} {% endblock content %}
+</html>
